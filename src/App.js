@@ -1,12 +1,16 @@
 import './App.css';
 import NavBar from './component/NavBar';
+import Shop from './component/Shop';
 function App() {
   return (
-     // eslint-disable-next-line
-    <div className="App">
-     
+    <> 
       <NavBar />
-    </div>
+      
+      <div className='container'>
+      <Shop />
+      </div>
+
+    </>
   );
 }
 
